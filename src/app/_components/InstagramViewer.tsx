@@ -1,3 +1,6 @@
+// This is currently using the Instagram Embed 
+// Needs to be refactored to use proper JSX
+
 import { getStyleObjectFromString } from "@/utils/stringUtils";
 import Script from "next/script";
 
