@@ -44,16 +44,16 @@ const locationHours: LocationHourType[] = [
 
 export default function Hours() {
     return (
-        <div className="flex flex-col text-center justify-center align-middle p-8">
-            <div className="container mx-auto py-8 px-4">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    {locationHours.map((location, index) => (
-                        <HoursCard key={index} location={location} />
-                    ))}
-                </div>
+        <div className="container mx-auto py-8 px-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                {locationHours.map((location, index) => (
+                    <HoursCard key={index} location={location} />
+                ))}
             </div>
 
-            <Image src="/eggcurry.jpeg" alt="Egg Curry" width={500} height={300} className="m-auto h-auto"></Image>
+            <Image src="/eggcurry.jpeg" alt="Egg Curry" width={500} height={300} className="m-auto h-auto pt-8"></Image>
         </div>
+
+
     )
 }

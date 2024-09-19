@@ -3,11 +3,17 @@
 import Script from "next/script";
 
 type InstagramViewerProps = {
-    url: string;
+    id: string;
 };
 
+function postUrlForId(id: string) {
+    return `https://www.instagram.com/p/${id}/?utm_source=ig_embed&utm_campaign=loading`;
+}
+
 export const InstagramViewer = (props: InstagramViewerProps) => {
-    const { url } = props;
+    const { id } = props;
+    const url = postUrlForId(id);
+
     return (
         <div className="flex flex-row justify-center">
             <blockquote

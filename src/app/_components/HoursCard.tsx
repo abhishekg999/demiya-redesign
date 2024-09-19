@@ -14,8 +14,8 @@ type HoursCardProps = {
 
 export const HoursCard = ({ location }: HoursCardProps) => {
     return (
-        <div className="bg-white rounded-lg shadow-md p-6 mb-4 border">
-            <h2 className="text-2xl font-bold text-red-700 mb-4">{location.name}</h2>
+        <div className="bg-white rounded-lg shadow-md p-6 border">
+            <h2 className="text-2xl font-bold text-red-700 mb-4 text-center">{location.name}</h2>
             <div className="grid grid-cols-2 gap-2">
                 <div className="col-span-2 flex items-center">
                     <Clock className="mr-2 text-red-700" size={20} />
