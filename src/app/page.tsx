@@ -29,7 +29,7 @@ export default function Home() {
         </h2>
 
         <h1 className="text-2xl pt-6 font-bold text-red-700">Latest Post</h1>
-        <InstagramViewer id="C_S_DgRvLth" />
+        <InstagramViewer id="DCXtIf7S0-9" />
       </section>
     </main>
   );
