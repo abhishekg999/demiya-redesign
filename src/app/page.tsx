@@ -15,7 +15,8 @@ export default function Home() {
         <div className="p-6 border-2 rounded-lg w-fit">
           <h2 className="text-3xl p-6 font-bold text-red-700">Announcements</h2>
           <ul className="text-lg lg:text-xl">
-            <li className="p-1">Our Fremont location is now open! Online orders are available under {" "}
+            <li>New location at <b>The Public Market in Emeryville</b> coming soon!</li>
+            <li>Uber Eats and DoorDash available now at our Fremont location under {" "}
               <Link href="/order" className="text-blue-600 hover:underline" >Orders/Locations</Link>.
             </li>
             <li>All locations are now open on Wednesdays!</li>
